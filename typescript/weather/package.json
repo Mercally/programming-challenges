@@ -1,0 +1,12 @@
+{
+  "name": "node-starter",
+  "private": true,
+  "scripts": {
+    "weatherChallenge": "tsc weather.ts && node weather.js",
+    "stringChallenge": "tsc string.ts && node string.js",
+    "counterChallenge": "tsc counter.ts && node counter.js"
+  },
+  "dependencies": {
+    "typescript": "^5.8.3"
+  }
+}
